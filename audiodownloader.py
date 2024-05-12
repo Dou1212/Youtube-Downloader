@@ -2,7 +2,7 @@
 from pytube import YouTube
 
 # Defining a function to download a YouTube video
-def download_video(url, path="YOUR PATH"):
+def download_video(url, path="YOUR_PATH_HERE"):
     try:
         # Creating a YouTube object with the provided URL
         yt = YouTube(url)
